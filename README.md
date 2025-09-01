@@ -18,11 +18,11 @@ This repo publishes **cryptographic proofs of existence** for solves of The Appa
 
 2) Verify the timestamp (independent proof of time):
    ```bash
-   ots verify proofs/solve-v1.tar.gz.sha256
+   ots verify proofs/solve-v1.0.0.tar.gz.sha256
 
 3) Verify authorship signature:
    ```bash
-   gpg --verify proofs/solve-v1.tar.gz.sha256.asc proofs/solve-v1.tar.gz.sha256
+   gpg --verify proofs/solve-v1.0.0.tar.gz.sha256.asc proofs/solve-v1.0.0.tar.gz.sha256
 
 4) Extract & view solve contents
    ```bash
